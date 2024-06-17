@@ -41,7 +41,7 @@ export default class Contacts extends Component {
     );
 
     if (isDuplicate) {
-      alert(`Contact with the name "${name}" already exists.🫣`);
+      alert(`Contact with the name "${name}" already exists.🫣😵‍💫`);
       return;
     }
     const isValidNumber = /^[0-9]+$/.test(number);
